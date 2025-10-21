@@ -20,6 +20,24 @@ const projects = [
     demoUrl: "https://jelajah-saraf-sandy.vercel.app/",
     githubUrl: "https://github.com/rwynns/jelajah-saraf",
   },
+  {
+    id: 3,
+    title: "SiHaki",
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/projects/project3.png",
+    tags: ["Laravel", "Tailwind", "mySQL", "php"],
+    demoUrl: "",
+    githubUrl: "https://github.com/Pumpkins20/siHaki",
+  },
+  {
+    id: 4,
+    title: "Eposyandu",
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/projects/project3.png",
+    tags: ["Laravel", "React", "mySQL", "IoT"],
+    demoUrl: "https://eposyandu.edutic.id",
+    githubUrl: "https://github.com/Pumpkins20/siHaki",
+  },
 ];
 
 export const ProjectsSection = () => {
