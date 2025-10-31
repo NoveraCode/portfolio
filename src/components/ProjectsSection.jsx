@@ -71,7 +71,6 @@ const projects = [
     screenshots: ["/projects/eposyandu-1.png", "/projects/eposyandu-2.png", "/projects/eposyandu-3.png"],
     tags: ["Laravel", "Next.js", "mySQL", "IoT"],
     demoUrl: "https://eposyandu.edutic.id",
-    githubUrl: "https://github.com/Pumpkins20/siHaki",
   },
 ];
 
