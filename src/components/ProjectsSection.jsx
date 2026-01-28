@@ -70,7 +70,7 @@ const projects = [
     image: "/projects/eposyandu.png",
     screenshots: ["/projects/eposyandu-1.png", "/projects/eposyandu-2.png", "/projects/eposyandu-3.png"],
     tags: ["Laravel", "Next.js", "mySQL", "IoT"],
-    demoUrl: "https://eposyandu.edutic.id",
+    // demoUrl: "https://eposyandu.edutic.id",
   },
 ];
 
