@@ -4,6 +4,37 @@ import { ProjectModal } from "./ProjectModal";
 
 const projects = [
   {
+    id: 8,
+    title: "PTPN Radio Solo Official Website",
+    description:
+      "A modern digital home for PTPN Radio Solo, bringing live streaming, curated programs, broadcaster profiles, daily schedules, music news, events, and contact access into one responsive website experience.",
+    image: "/projects/ptpn-radio.png",
+    screenshots: ["/projects/ptpn-radio-1.png", "/projects/ptpn-radio-2.png", "/projects/ptpn-radio-3.png"],
+    tags: ["Website", "Responsive Design", "Content Platform"],
+    demoUrl: "https://ptpnradio.com/",
+  },
+  {
+    id: 7,
+    title: "E-Posyandu Si Bunda",
+    description:
+      "A digital solution built to modernize child health monitoring by replacing the conventional Posyandu (maternal/child health) book. This web application features direct integration with an IoT digital scale, allowing for the seamless capture of toddler height and weight data to efficiently track their health conditions.",
+    image: "/projects/eposyandu.png",
+    screenshots: ["/projects/eposyandu-1.png", "/projects/eposyandu-2.png", "/projects/eposyandu-3.png"],
+    tags: ["Laravel", "Next.js", "mySQL", "IoT"],
+    // demoUrl: "https://eposyandu.edutic.id",
+  },
+  {
+    id: 6,
+    title: "SiHaki",
+    description:
+      "A full-stack web application built with Laravel, specifically designed to manage a university's Intellectual Property (IP) document approval workflow. The system enables users to create, submit, review, and approve documents efficiently - reducing manual work and improving workflow transparency.",
+    image: "/projects/sihaki.png",
+    screenshots: ["/projects/sihaki-1.png", "/projects/sihaki-2.png", "/projects/sihaki-3.png"],
+    tags: ["Laravel", "Bootstrap", "mySQL"],
+    demoUrl: "",
+    githubUrl: "https://github.com/Pumpkins20/siHaki",
+  },
+  {
     id: 1,
     title: "Landing Page RAPMAFEST #9",
     description: "A dedicated landing page built to introduce the RAPMAFEST #9 event and manage all online ticket sales in one place.",
@@ -50,27 +81,6 @@ const projects = [
     tags: ["React", "Chakra UI"],
     demoUrl: "https://jelajah-saraf-sandy.vercel.app/",
     githubUrl: "https://github.com/rwynns/jelajah-saraf",
-  },
-  {
-    id: 6,
-    title: "SiHaki",
-    description:
-      "A full-stack web application built with Laravel, specifically designed to manage a university's Intellectual Property (IP) document approval workflow. The system enables users to create, submit, review, and approve documents efficiently—reducing manual work and improving workflow transparency.",
-    image: "/projects/sihaki.png",
-    screenshots: ["/projects/sihaki-1.png", "/projects/sihaki-2.png", "/projects/sihaki-3.png"],
-    tags: ["Laravel", "Bootstrap", "mySQL"],
-    demoUrl: "",
-    githubUrl: "https://github.com/Pumpkins20/siHaki",
-  },
-  {
-    id: 7,
-    title: "E-Posyandu Si Bunda",
-    description:
-      "A digital solution built to modernize child health monitoring by replacing the conventional Posyandu (maternal/child health) book. This web application features direct integration with an IoT digital scale, allowing for the seamless capture of toddler height and weight data to efficiently track their health conditions.",
-    image: "/projects/eposyandu.png",
-    screenshots: ["/projects/eposyandu-1.png", "/projects/eposyandu-2.png", "/projects/eposyandu-3.png"],
-    tags: ["Laravel", "Next.js", "mySQL", "IoT"],
-    // demoUrl: "https://eposyandu.edutic.id",
   },
 ];
 
